@@ -1,0 +1,62 @@
+.style{
+
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+   background-color:  rgb(235, 234, 241);
+
+   
+}
+
+.style1,.style3,.style4{
+
+    background-color: white;
+    height:200px;
+    text-align: center;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+   margin:10px 30px;
+   border:none;
+   border-radius:8px;
+   box-shadow: 0px 1px 5px rgb(0,0,0,0.5);
+}  
+.style1{
+ 
+line-height:30px;
+ 
+ font-size: 16px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    display: block;
+    height:100px;
+    width:100px;
+    border-radius:50px ;
+    object-fit: cover;
+    margin-left:700px;
+    margin-top:10px;
+}
+.skill{
+
+font-size: 14px;
+
+}
+.style4{
+   padding-left:20px;
+   padding-top:20px;
+   line-height:20px ;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    font-weight: Bold;
+    margin-bottom: 10px;
+}
+.project-name{
+font-size: 16px;
+}
+.description{
+    color:grey;
+    font-size:14px;
+}
+span{
+    color:rgb(62, 62, 247);
+}
